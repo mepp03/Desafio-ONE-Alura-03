@@ -1,0 +1,133 @@
+.envelope-contato
+{
+  margin: 0 152px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.contato 
+{
+  background: #EAF2FD;
+  padding: 64px 0;
+}
+
+.div-contato
+{
+  display: inline-block;
+}
+
+.div-contato p
+{
+  margin-bottom: 32px;
+}
+
+.div-contato h2
+{
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.div-pergaminho
+{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 32px;
+}
+
+.label-flutuante
+{
+  background: white;
+  margin-bottom: 22px;
+  padding: 3px;
+  /* border: 2px solid blue; */
+  width: 109%;
+}
+
+input
+{
+  background-color: white;
+  color: #464646;
+  outline: none;
+  border: none;
+  line-height: 1.2em;
+  font-size: 14pt;
+  width: 100%;
+}
+
+textarea
+{
+  border: none;
+  outline: none;
+  height: 7em;
+  width: 100%;
+  resize: none;
+}
+
+label
+{
+  font-size: 12px;
+  color: #A2A2A2;
+}
+
+.labelAviso
+{
+  color:  #f22c2c;
+}
+
+.enviar
+{
+  width: 165px;
+  height: 51px;
+  background: #2A7AE4;
+  color: #FFFFFF;
+}
+
+.desabilitar
+{
+  width: 165px;
+  height: 51px;
+  background: #efefef;
+  color: #c3c3c3;
+}
+
+.esconder
+{
+  visibility: hidden;
+}
+
+
+@media screen and (max-width: 1024px) 
+{
+  .envelope-contato
+  {
+    margin: 0;
+  }
+
+  .contato
+  {
+    padding: 32px;
+  }
+
+  .div-pergaminho
+  {
+    display: none;
+  }
+
+  .div-contato
+  {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) 
+{
+  .envelope-contato
+  {
+    margin: 0;
+  }
+
+  .contato
+  {
+    padding: 32px;
+  }
+}

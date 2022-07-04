@@ -1,0 +1,73 @@
+.cabecalho
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 34.5px 152px 0 152px;
+}
+
+.menu
+{
+    display: flex;
+}
+
+.menu li
+{    
+    margin-right: 32px;
+}
+
+.nome:before
+{
+  content: "✨ ";
+}
+
+.email
+{
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 1024px) 
+{
+    .cabecalho
+    {
+        margin: 18.5px 32px 0 32px;
+    }
+
+    .menu 
+    {
+        visibility: hidden;  
+    }
+
+    .menu li
+    {    
+        margin-right: 0;
+    }
+
+    .menu__item:last-child
+    {
+        visibility: visible;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) 
+{
+    .cabecalho
+    {
+        margin: 20px 16px 0 16px;
+    }
+
+    .email
+    {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .menu__item 
+    {
+        visibility: hidden;
+    }
+}

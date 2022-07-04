@@ -1,0 +1,31 @@
+.envelope-sobre-mim
+{
+  margin: 0 152px;
+}
+
+.sobre-mim
+{
+  background: #EAF2FD;
+  padding: 64px 0;
+}
+
+@media screen and (max-width: 1024px) 
+{
+  .envelope-sobre-mim
+  {
+    margin: 0;
+  }
+
+  .sobre-mim
+  {
+    padding: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) 
+{
+  .sobre-mim
+  {
+    padding: 16px;
+  }
+}

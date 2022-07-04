@@ -1,0 +1,75 @@
+.hobbies
+{
+  margin: 64px 152px;
+}
+
+.lista-hobbies ul
+{  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hobbies li
+{
+  display: inline-block;
+  height: 174px;
+  width: 16%;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-top: 5em;
+}
+
+.hobbies li p
+{
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.hobbies_icone
+{
+  height: 50px;
+}
+
+
+@media screen and (max-width: 1024px) 
+{
+  .hobbies
+  {
+    margin: 32px 32px 0 32px;
+  }
+
+  .lista-hobbies ul
+  {
+    flex-wrap: wrap;
+  }
+
+  .hobbies li
+  {
+    height: 118px;
+    width: 32%;
+    padding-bottom: 6em;
+    margin-bottom: 32px;
+  }
+
+  .hobbies li p
+  {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) 
+{
+  .hobbies
+  {    
+    margin: 16px 16px 16px 16px;
+  }
+
+  .hobbies li
+  {
+    width: 48%;
+    padding-bottom: 6em;
+    margin-bottom: 32px;
+  }
+}
